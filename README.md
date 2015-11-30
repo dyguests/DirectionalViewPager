@@ -18,9 +18,9 @@ fix some code.
 
 ##Step2.
 
-    copy package android.support.v4.view(with file DirectionalViewPager.java ,VerticalViewPagerCompat.java) to your project.
+copy package android.support.v4.view(with file DirectionalViewPager.java ,VerticalViewPagerCompat.java) to your project.
     
-    *Do not change package name!!!*
+*Do not change package name!!!*
 
 ##Step3.
 

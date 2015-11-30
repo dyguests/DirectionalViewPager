@@ -135,7 +135,19 @@ public class MainActivity extends AppCompatActivity {
                                  Bundle savedInstanceState) {
             View     rootView = inflater.inflate(R.layout.fragment_main, container, false);
             TextView textView = (TextView) rootView.findViewById(R.id.section_label);
-            textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
+            int      anInt    = getArguments().getInt(ARG_SECTION_NUMBER);
+            textView.setText(getString(R.string.section_format, anInt));
+            switch (anInt) {
+                case 1:
+                    textView.setBackgroundResource(R.color.color1);
+                    break;
+                case 2:
+                    textView.setBackgroundResource(R.color.color2);
+                    break;
+                case 3:
+                    textView.setBackgroundResource(R.color.color3);
+                    break;
+            }
             return rootView;
         }
     }

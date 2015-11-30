@@ -2,6 +2,8 @@
 
 A DirectionalViewPager(VerticalViewPager + ViewPager) can work in new Support V4.
 
+![sample](/graphics/example.gif)
+
 1.this project is base on [JakeWharton/Android-DirectionalViewPager](https://github.com/JakeWharton/Android-DirectionalViewPager).
 
 2.some code is base on [stackoverflow](http://stackoverflow.com/questions/10720276/error-including-android-directionalviewpager-jar-in-eclipse/14268702#14268702)
